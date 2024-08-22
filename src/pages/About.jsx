@@ -1,7 +1,9 @@
+import '../App.css'; // Importing the App.css file
+
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="center">
+      <h1>Lisa Reynolds</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
