@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import About from './pages/About';
 import Resume from './pages/Resume';
 
@@ -30,10 +30,10 @@ const router = createBrowserRouter([
         path: '/Resume',
         element: <Resume />,
       },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
+      // {
+      //   path: '/Contact',
+      //   element: <Contact />,
+      // },
     ],
   },
 ]);
