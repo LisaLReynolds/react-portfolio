@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
 
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
 /*Overlay is commented out because it is interfering with the funcionality of the navtabs in the header. I don't remember why I added it, but think I like it better without anyway.
 /* .overlay {
   position: fixed;
@@ -78,7 +86,17 @@ text-transform:uppercase;
 
 header {
   background-color: rgb(193, 186, 221);
+  height: 75px;
   margin-bottom: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+main {
+  background-color: rgb(193, 186, 221);
+  flex: 1; /* Allow main to grow and fill the space */
 }
 
 main.mx-3 {
@@ -91,8 +109,12 @@ main.mx-3 {
   border: 0;
 }
 
+
+
 footer {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: rgb(193, 186, 221);
 }
