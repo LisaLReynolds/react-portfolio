@@ -37,8 +37,8 @@ background-position: bottom;
   
   
 background-size:cover;
-      -webkit-animation: slidein 100s;
-      animation: slidein 100s;
+      -webkit-animation: slidein 50s;
+      animation: slidein 50s;
 
       -webkit-animation-fill-mode: forwards;
       animation-fill-mode: forwards;
@@ -60,9 +60,8 @@ to {background-position: -100px 0px;background-size:2750px;}
 @keyframes slidein {
 from {background-position: top;background-size:3000px; }
 to {background-position: -100px 0px;background-size:2750px;}
-
-
 }
+
 .center h1, h2 {
 text-align:left;
 
@@ -82,8 +81,14 @@ header {
   margin-bottom: 0px;
 }
 
+main.mx-3 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .nav-tabs {
   background-color: rgb(193, 186, 221);
+  border: 0;
 }
 
 footer {
