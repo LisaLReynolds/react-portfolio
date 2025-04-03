@@ -104,9 +104,18 @@ main.mx-3 {
   margin-right: 0 !important;
 }
 
+.nav-items {
+  /* justify-content: space-around !important; */
+}
+
 .nav-tabs {
   background-color: rgb(193, 186, 221);
   border: 0;
+  display: flex; /* Use flexbox to align items */
+  justify-content: right; /* Center the nav-tabs */
+  padding-right: 5rem;
+  align-items: center; /* Align items vertically in the center */
+  height: 75px;
 }
 
 
