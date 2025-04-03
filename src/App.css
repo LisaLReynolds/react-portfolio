@@ -71,17 +71,22 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 
 .center h1, h2 {
-text-align:left;
 
+text-align:left;
+padding-left: 10rem; /* Align the text to the left */
 font-size: 75px;
 color:white;
 font-family: 'Source Code Pro', monospace;
 text-transform:uppercase;
 }
 
+.center h1 {
+  padding-top: 2.5rem;
+}
+
 .center p{
   text-align: left;
-  padding: 50px 300px 100px 100px;
+  padding: 5rem 30rem 10rem 10.5rem;
 }
 
 header {
@@ -125,13 +130,13 @@ main.mx-3 {
 .nav-tabs .nav-link:hover {
   background-color: inherit; /* Optional: Change background for active link */
   color:  rgb(100, 100, 200);; /* Optional: Change color on hover */
-  border-color:  rgb(193, 186, 221);
+  border-color:  rgb(193, 186, 221); /* Ensure that the border color matches the background to avoid a border around the nav-link */
 }
 
 .nav-tabs .nav-link.active {
   color: white; /* Optional: Change color for the active link */
   background-color: rgb(100, 100, 200); /* Optional: Change background for active link */
-  border-color:  rgb(193, 186, 221);
+  border-color:  rgb(193, 186, 221); /* Ensure that there is no border around the active link */
 }
 
 
