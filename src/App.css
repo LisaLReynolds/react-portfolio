@@ -105,7 +105,7 @@ main.mx-3 {
 }
 
 .nav-items {
-  /* justify-content: space-around !important; */
+
 }
 
 .nav-tabs {
@@ -118,6 +118,21 @@ main.mx-3 {
   height: 75px;
 }
 
+.nav-tabs .nav-link {
+  color: white; /* Change this to your desired color */
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: inherit; /* Optional: Change background for active link */
+  color:  rgb(100, 100, 200);; /* Optional: Change color on hover */
+  border-color:  rgb(193, 186, 221);
+}
+
+.nav-tabs .nav-link.active {
+  color: white; /* Optional: Change color for the active link */
+  background-color: rgb(100, 100, 200); /* Optional: Change background for active link */
+  border-color:  rgb(193, 186, 221);
+}
 
 
 footer {
