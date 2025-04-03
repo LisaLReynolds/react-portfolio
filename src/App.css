@@ -6,8 +6,12 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  --primary-color: #5f5b80; /* Define your primary color */
+  --primary-active-tab-color: rgb(100, 100, 200); /* Optional: Define a hover color */
+  --primary-hover-color: #E19F91; 
 }
 
+/* original background color (primanry color): rgb(193, 186, 221) */
 
 /*Overlay is commented out because it is interfering with the funcionality of the navtabs in the header. I don't remember why I added it, but think I like it better without anyway.
 /* .overlay {
@@ -45,8 +49,8 @@ background-position: center;
   
   
 background-size:cover;
-      -webkit-animation: slidein 100s;
-      animation: slidein 100s;
+      -webkit-animation: slidein 140s;
+      animation: slidein 140s;
 
       -webkit-animation-fill-mode: forwards;
       animation-fill-mode: forwards;
@@ -66,8 +70,8 @@ to {background-position: right center;background-size:2750px;}
 }
 
 @keyframes slidein {
-from {background-position: left center; background-size:3000px; }
-to {background-position: right center;background-size:2750px;}
+from {background-position: right center; background-size:3000px; }
+to {background-position: left center;background-size:2750px;}
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -96,7 +100,7 @@ to {background-position: right center;background-size:2750px;}
 }
 
 header {
-  background-color: rgb(193, 186, 221);
+  background-color: var(--primary-color); /* Use the primary color defined in the root */
   height: 75px;
   margin-bottom: 0px;
 }
@@ -106,7 +110,7 @@ html, body {
 }
 
 main {
-  background-color: rgb(193, 186, 221);
+  background-color:var(--primary-color);
   flex: 1; /* Allow main to grow and fill the space */
 }
 
@@ -116,11 +120,11 @@ main.mx-3 {
 }
 
 .nav-items {
-
+  
 }
 
 .nav-tabs {
-  background-color: rgb(193, 186, 221);
+  background-color:var(--primary-color);
   border: 0;
   display: flex; /* Use flexbox to align items */
   justify-content: right; /* Center the nav-tabs */
@@ -131,18 +135,19 @@ main.mx-3 {
 
 .nav-tabs .nav-link {
   color: white; /* Change this to your desired color */
+  font-weight: bold;
 }
 
 .nav-tabs .nav-link:hover {
   background-color: inherit; /* Optional: Change background for active link */
-  color:  rgb(100, 100, 200);; /* Optional: Change color on hover */
-  border-color:  rgb(193, 186, 221); /* Ensure that the border color matches the background to avoid a border around the nav-link */
+  color:  var(--primary-hover-color); /* Optional: Change color on hover */
+  border-color: var(--primary-color); /* Ensure that the border color matches the background to avoid a border around the nav-link */
 }
 
 .nav-tabs .nav-link.active {
   color: white; /* Optional: Change color for the active link */
-  background-color: rgb(100, 100, 200); /* Optional: Change background for active link */
-  border-color:  rgb(193, 186, 221); /* Ensure that there is no border around the active link */
+  background-color: var(--primary-hover-color); /* Optional: Change background for active link */
+  border-color: var(--primary-color); /* Ensure that there is no border around the active link */
 }
 
 
@@ -151,5 +156,5 @@ footer {
   padding: 0;
   width: 100%;
   height: 150px;
-  background-color: rgb(193, 186, 221);
+  background-color: var(--primary-color);
 }
