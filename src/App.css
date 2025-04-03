@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  --primary-color: #5f5b80; /* Define your primary color */
-  --primary-active-tab-color: rgb(100, 100, 200); /* Optional: Define a hover color */
+  --primary-color: #5f5b80; /* primary color used as background*/
+  --primary-active-tab-color: rgb(100, 100, 200); /* active tab color option */
   --primary-hover-color: #E19F91; 
 }
 
@@ -65,13 +65,13 @@ background-size:cover;
 }
 
 @-webkit-keyframes slidein {
-from {background-position: left center; background-size:3000px; }
-to {background-position: right center;background-size:2750px;}
+from {background-position: right center; background-size:3000px; }
+to {background-position: left center;background-size:2750px;}
 }
 
 @keyframes slidein {
-from {background-position: right center; background-size:3000px; }
-to {background-position: left center;background-size:2750px;}
+from {background-position: left center; background-size:3000px; }
+to {background-position: right center;background-size:2750px;}
 }
 
 @media (prefers-reduced-motion: reduce) {
