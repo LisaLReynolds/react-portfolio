@@ -61,7 +61,7 @@ background-size:cover;
       -webkit-animation-direction: alternate;
       animation-direction: alternate; 
       
-
+      overflow: hidden; /* Prevent content from overflowing */
 }
 
 @-webkit-keyframes slidein {
@@ -84,7 +84,7 @@ to {background-position: right center;background-size:2750px;}
 .center h1, h2 {
   text-align:left;
   padding-left: 10rem; /* Align the text to the left */
-  font-size: 75px;
+  font-size: clamp(2rem, 5vw, 6rem);
   color:white;
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
@@ -98,6 +98,7 @@ to {background-position: right center;background-size:2750px;}
   text-align: left;
   padding: 5rem 30rem 10rem 10.5rem;
 }
+
 
 header {
   background-color: var(--primary-color); /* Use the primary color defined in the root */
