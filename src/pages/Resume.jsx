@@ -4,7 +4,7 @@ export default function Resume() {
       <h1>Blog Page</h1>
       
       <section>
-        <h2 class="aref-ruqaa-bold">SUMMARY</h2>
+        <h2>SUMMARY</h2>
         <p>
           Professional with over 10 years of customer service experience looking
           to transition into the position of a full-stack developer. Experience
@@ -14,7 +14,7 @@ export default function Resume() {
         </p>
       </section>
       <section>
-        <h2 class="aref-ruqaa-bold">TECHNICAL SKILLS</h2>
+        <h2>TECHNICAL SKILLS</h2>
         <p>
           Agile development, APIs, Bootstrap, CSS3, Express, GitHub, Handlebars,
           HTML5, JavaScript ES6+, jQuery, JSON, MaterialUI, MERN Stack, MongoDB,
@@ -23,7 +23,7 @@ export default function Resume() {
         </p>
       </section>
       <section>
-        <h2 class="aref-ruqaa-bold">EXPERIENCE</h2>
+        <h2>EXPERIENCE</h2>
         <article>
           <h3>Web Developer Intern</h3>
           <p>CodeGeek</p>
@@ -48,6 +48,18 @@ export default function Resume() {
               CodeGeek.
             </li>
           </ul>
+        </article>
+      </section>
+      <section>
+        <h2>EDUCATION</h2>
+        <article>
+          <h3>Certificate, Full-Stack Web Development</h3>
+          <p>University of Denver</p>
+          <h3>
+            Bachelor of Arts, Anthropology and Languages, Literatures, and
+            Cultures (French)
+          </h3>
+          <p>Colorado State University</p>
         </article>
       </section>
     </div>
