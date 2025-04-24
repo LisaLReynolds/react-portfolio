@@ -135,7 +135,7 @@ main.mx-3 {
 }
 
 .nav-tabs .nav-link {
-  color: white; /* Change this to your desired color */
+  color: white; 
   font-weight: bold;
 }
 
@@ -159,3 +159,17 @@ footer {
   height: 150px;
   background-color: var(--primary-color);
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 15px;
+}
+
+.icons img{
+  height: 50px;
+  max-width: 50px;
+  
+} 
