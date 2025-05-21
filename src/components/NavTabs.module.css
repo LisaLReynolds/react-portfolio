@@ -1,0 +1,30 @@
+.nav-items {
+  
+}
+
+.nav-tabs {
+  background-color:var(--primary-color);
+  border: 0;
+  display: flex; /* Use flexbox to align items */
+  justify-content: right; /* Center the nav-tabs */
+  padding-right: 5rem;
+  align-items: center; /* Align items vertically in the center */
+  height: 75px;
+}
+
+.nav-tabs .nav-link {
+  color: white; 
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: inherit; /* Optional: Change background for active link */
+  color:  var(--primary-hover-color); /* Optional: Change color on hover */
+  border-color: var(--primary-color); /* Ensure that the border color matches the background to avoid a border around the nav-link */
+}
+
+.nav-tabs .nav-link.active {
+  color: white; /* Optional: Change color for the active link */
+  background-color: var(--primary-hover-color); /* Optional: Change background for active link */
+  border-color: var(--primary-color); /* Ensure that there is no border around the active link */
+}

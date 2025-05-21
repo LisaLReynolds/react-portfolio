@@ -1,0 +1,5 @@
+header {
+  background-color: var(--primary-color); /* Use the primary color defined in the root */
+  height: 75px;
+  margin-bottom: 0px;
+}
