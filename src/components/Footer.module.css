@@ -1,0 +1,26 @@
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 150px;
+  background-color: var(--primary-color);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 15px;
+}
+
+.icons img{
+  height: 50px;
+  max-width: 50px;
+  
+} 
+
+.icons img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the scaling effect */
+}
