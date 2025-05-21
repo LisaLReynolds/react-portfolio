@@ -11,39 +11,11 @@
   --primary-hover-color: #E19F91; 
 }
 
-/* original background color (primanry color): rgb(193, 186, 221) */
-
-/*Overlay is commented out because it is interfering with the funcionality of the navtabs in the header. I don't remember why I added it, but think I like it better without anyway.
-/* .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(204, 129, 211, 0.1); 
-  z-index: 9999; 
-}  */
-/* line 11: Black color with 50% opacity */
-/* line 12: Ensure the overlay is on top of everything */
-
 
 .center  {
   width: 100% !important;
   height: 700px;
   
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  
-  border-radius: 3px;
-  background: rgba(75, 75, 250, 0.3);  
-  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg'); */
 background-position: center;
   background-image: url('https://images.unsplash.com/photo-1496450681664-3df85efbd29f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   
@@ -100,12 +72,6 @@ to {background-position: right center;background-size:2750px;}
 }
 
 
-header {
-  background-color: var(--primary-color); /* Use the primary color defined in the root */
-  height: 75px;
-  margin-bottom: 0px;
-}
-
 html, body {
   height: 100%;
 }
@@ -120,61 +86,18 @@ main.mx-3 {
   margin-right: 0 !important;
 }
 
-.nav-items {
-  
-}
 
-.nav-tabs {
-  background-color:var(--primary-color);
-  border: 0;
-  display: flex; /* Use flexbox to align items */
-  justify-content: right; /* Center the nav-tabs */
-  padding-right: 5rem;
-  align-items: center; /* Align items vertically in the center */
-  height: 75px;
-}
-
-.nav-tabs .nav-link {
-  color: white; 
-  font-weight: bold;
-}
-
-.nav-tabs .nav-link:hover {
-  background-color: inherit; /* Optional: Change background for active link */
-  color:  var(--primary-hover-color); /* Optional: Change color on hover */
-  border-color: var(--primary-color); /* Ensure that the border color matches the background to avoid a border around the nav-link */
-}
-
+/* Highlight the active tab */
 .nav-tabs .nav-link.active {
-  color: white; /* Optional: Change color for the active link */
-  background-color: var(--primary-hover-color); /* Optional: Change background for active link */
-  border-color: var(--primary-color); /* Ensure that there is no border around the active link */
+  background-color: var(--primary-hover-color) !important;
+  color: white !important;
+  border-color: var(--primary-hover-color) !important;
 }
 
-
-footer {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 150px;
-  background-color: var(--primary-color);
+/* Hover effect for non-active tabs only */
+.nav-tabs .nav-link:not(.active):hover {
+  background-color: inherit;
+  color: var(--primary-hover-color);
+  border-color: var(--primary-color);
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  padding-top: 15px;
-}
-
-.icons img{
-  height: 50px;
-  max-width: 50px;
-  
-} 
-
-.icons img:hover {
-  transform: scale(1.1); /* Scale the image on hover */
-  transition: transform 0.3s ease-in-out; /* Smooth transition for the scaling effect */
-}

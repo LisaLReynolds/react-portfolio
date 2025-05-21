@@ -1,47 +1,40 @@
 import { Link, useLocation } from 'react-router-dom';
-import '../App.css'; // Importing the App.css file
-import styles from './NavTabs.module.css'; // Importing the NavTabs.module.css file
+import '../App.css';
+import styles from './NavTabs.module.css';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className={`nav nav-tabs ${styles.navTabs}`}>
+      <li className={`nav-item ${styles.navItem}`}>
         <Link
           to="/"
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          className={`nav-link${currentPage === '/' ? ' active' : ''} ${styles.navLink}`}
         >
           About
         </Link>
       </li>
-      <li className="nav-item">
+      <li className={`nav-item ${styles.navItem}`}>
         <Link
           to="/Portfolio"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={`nav-link${currentPage === '/Portfolio' ? ' active' : ''} ${styles.navLink}`}
         >
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      <li className={`nav-item ${styles.navItem}`}>
         <Link
           to="/Resume"
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+          className={`nav-link${currentPage === '/Resume' ? ' active' : ''} ${styles.navLink}`}
         >
           Resume
         </Link>
       </li>
-      <li className="nav-item">
+      <li className={`nav-item ${styles.navItem}`}>
         <Link
           to="/Contact"
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={`nav-link${currentPage === '/Contact' ? ' active' : ''} ${styles.navLink}`}
         >
           Contact
         </Link>
