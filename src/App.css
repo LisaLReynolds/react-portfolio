@@ -11,13 +11,11 @@
   --primary-hover-color: #E19F91; 
 }
 
-
-
-
+/* I'm not sure if this code is needed. Looks to be overriding bootstrap, but not sure if it is doing anything. Maybe here to fix white area that shows up on right side when screen is made very small/narrow */
 main.mx-3 {
   margin-left: 0 !important;
   margin-right: 0 !important;
-}
+} 
 
 
 /* NavTab Component CSS Bootstrap overrides (cannot be done at .module.css level). Other CSS for NavTab can be found in ./scr./components./NavTabs.module.css*/

@@ -1,10 +1,12 @@
+import styles from './Resume.module.css';
+
 export default function Resume() {
   return (
-    <div>
-      <h1>Blog Page</h1>
+    <div className={styles.resume}>
+      <h1>Lisa Reynolds Resume</h1>
       
       <section>
-        <h2>SUMMARY</h2>
+        <h2>Summary</h2>
         <p>
           Professional with over 10 years of customer service experience looking
           to transition into the position of a full-stack developer. Experience
