@@ -28,8 +28,7 @@ export default function Resume() {
         <h2>EXPERIENCE</h2>
         <article>
           <h3>Web Developer Intern</h3>
-          <p>CodeGeek</p>
-          <p>117 E Mountain Ave, Suite 222, Fort Collins, CO 80524</p>
+          <p className={styles.codegeek}>CodeGeek</p>
           <ul>
             <li>
               Performed monthly updates for WordPress websites developed and
@@ -55,13 +54,13 @@ export default function Resume() {
       <section>
         <h2>EDUCATION</h2>
         <article>
-          <h3>Certificate, Full-Stack Web Development</h3>
-          <p>University of Denver</p>
+          <h3>University of Denver</h3>
+          <p>Certificate, Full-Stack Web Development</p>
           <h3>
-            Bachelor of Arts, Anthropology and Languages, Literatures, and
-            Cultures (French)
+            Colorado State University
           </h3>
-          <p>Colorado State University</p>
+          <p> Bachelor of Arts, Anthropology and Languages, Literatures, and
+            Cultures (French)</p>
         </article>
       </section>
     </div>

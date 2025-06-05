@@ -9,6 +9,54 @@
   
 }
 
+.resume h1 {
+  font-size: clamp(2rem, 5vw, 6rem);
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.resume h2 {
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  padding-left: 0;
+}
+
+.resume h3 {
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.resume p {
+  text-align: left;
+  padding: 0 0 2rem 0;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.resume ul {
+
+  padding-left: 0;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.codegeek {
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 0px !important;
+}
+
 /* Medium Screens */
 @media (min-width: 768px) and (max-width: 999px) {
   .resume {
