@@ -3,7 +3,7 @@ import styles from './Resume.module.css';
 export default function Resume() {
   return (
     <div className={styles.resume}>
-      <h1>Lisa Reynolds Resume</h1>
+      <h1>Lisa's Resume</h1>
       
       <section>
         <h2>Summary</h2>
@@ -18,7 +18,7 @@ export default function Resume() {
       <section>
         <h2>TECHNICAL SKILLS</h2>
         <p>
-          Agile development, APIs, Bootstrap, CSS3, Express, GitHub, Handlebars,
+          Agile development, APIs, Bootstrap, CSS3, Express, GitHub, Handlebars,S
           HTML5, JavaScript ES6+, jQuery, JSON, MaterialUI, MERN Stack, MongoDB,
           Node, NoSQL, Object-oriented Programming, PostgreSQL, React,
           Sequelize, SQL, Web Accessibility, WordPress
