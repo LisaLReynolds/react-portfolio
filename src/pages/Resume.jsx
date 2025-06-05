@@ -3,7 +3,7 @@ import styles from './Resume.module.css';
 export default function Resume() {
   return (
     <div className={styles.resume}>
-      <h1>Lisa's Resume</h1>
+      <h1>Resume</h1>
       
       <section>
         <h2>Summary</h2>
