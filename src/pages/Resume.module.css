@@ -41,6 +41,7 @@
   padding: 0 0 2rem 0;
   color: white;
   font-family: 'Source Code Pro', monospace;
+  font-size: clamp(1.75rem, 2vw, 1.5rem);
 }
 
 .resume ul {
@@ -48,6 +49,7 @@
   padding-left: 0;
   color: white;
   font-family: 'Source Code Pro', monospace;
+  font-size: clamp(1.75rem, 2vw, 1.5rem);
 }
 
 .codegeek {

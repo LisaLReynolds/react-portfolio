@@ -18,7 +18,7 @@ export default function Resume() {
       <section>
         <h2>TECHNICAL SKILLS</h2>
         <p>
-          Agile development, APIs, Bootstrap, CSS3, Express, GitHub, Handlebars,S
+          Agile development, APIs, Bootstrap, CSS3, Express, GitHub, Handlebars,
           HTML5, JavaScript ES6+, jQuery, JSON, MaterialUI, MERN Stack, MongoDB,
           Node, NoSQL, Object-oriented Programming, PostgreSQL, React,
           Sequelize, SQL, Web Accessibility, WordPress

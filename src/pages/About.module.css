@@ -43,9 +43,11 @@ to {background-position: right center;background-size:2750px;}
   text-align:left;
   padding-left: 10rem; /* Align the text to the left */
   font-size: clamp(2rem, 5vw, 6rem);
-  color:white;
+  color: var(--primary-dark-text-color);
   font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
+  font-weight: 600;
+  font-style: normal;
+
 }
 
 .center h1 {
@@ -55,6 +57,10 @@ to {background-position: right center;background-size:2750px;}
 .center p{
   text-align: left;
   padding: 5rem 30rem 10rem 10.5rem;
+  color: var(--primary-dark-text-color);
+  font-family: 'Source Code Pro', monospace;
+   font-weight: 600;
+  font-style: normal;
 }
 
 
@@ -68,8 +74,5 @@ main {
 }
 
 
-/* I'm not sure if this code is needed. Looks to be overriding bootstrap, but looks the same when commented out */
-/* main.mx-3 {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-} */
+
+
