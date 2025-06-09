@@ -1,17 +1,20 @@
+import searchHistoryImg from '../assets/searchHistory.png';
+import styles from './Portfolio.module.css';  // Importing the Portfolio.module.css file
+import '../App.css';  // Importing the App.css file for global styles
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
+      <div className={`card`} style={{ width: "18rem" }}>
+        <img src={searchHistoryImg} className={`card-img-top`} alt="..." />
+        <div className={`card-body`}>
+          <h5 className={`card-title`}>Card title</h5>
+          <p className={`card-text`}>
             Some quick example text to build on the card title and make up the bulk of the card’s content.
           </p>
-         <a href="#" className="card-link">Card link</a>
-         <a href="#" className="card-link">Another link</a>
+         <a href="#" className={`card-link`}>Card link</a>
+         <a href="#" className={`card-link`}>Another link</a>
         </div>
       </div>
     </div>
