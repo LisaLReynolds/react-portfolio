@@ -4,7 +4,7 @@ import styles from './About.module.css'; // Importing the About.module.css file
 
 export default function About() {
   return (
-    <div className={styles.center}>
+    <div className={styles.about}>
       <h1>Lisa Reynolds</h1>
       <h2>Full Stack Developer</h2>
       <p>

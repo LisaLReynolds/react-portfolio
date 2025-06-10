@@ -12,6 +12,14 @@ function NavTabs() {
           to="/"
           className={`nav-link${currentPage === '/' ? ' active' : ''} ${styles.navLink}`}
         >
+          Home
+        </Link>
+      </li>
+       <li className={`nav-item ${styles.navItem}`}>
+        <Link
+          to="/About"
+          className={`nav-link${currentPage === '/About' ? ' active' : ''} ${styles.navLink}`}
+        >
           About
         </Link>
       </li>
