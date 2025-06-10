@@ -10,13 +10,13 @@ export default function Footer() {
     <footer className={styles.footer}>
         <section className={styles.icons}>
             <a href="mailto:lisalreynolds2015@gmail.com">
-                <img src={emailIcon} alt="email icon" />
+                <img src={emailIcon} alt="Email Lisa Reynolds" />
             </a>
             <a href="https://github.com/LisaLReynolds">
-                <img src={githubIcon} alt="GitHub icon"/>  
+                <img src={githubIcon} alt="Lisa Reynolds GitHub Profile"/>  
             </a>
             <a href="https://www.linkedin.com/in/lisalynnreynolds/">     
-                <img src={linkedinIcon} alt="LinkedIn icon"/>
+                <img src={linkedinIcon} alt="Lisa Reynolds LinkedIn Profile"/>
             </a>
       </section>
     </footer>
