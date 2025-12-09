@@ -1,5 +1,6 @@
 import searchHistoryImg from '../assets/searchHistory.png';
-import styles from './Portfolio.module.css';
+import styles from './Portfolio.module.css';  // Importing the Portfolio.module.css file
+import '../App.css';  // Importing the App.css file for global styles
 
 export default function Portfolio() {
   return (
