@@ -5,7 +5,7 @@ import '../App.css';  // Importing the App.css file for global styles
 export default function Portfolio() {
   return (
     <div className={styles.portfolio}>
-      <h1 className={styles.title}>Projects</h1>
+      <h1 className={styles.title}>My Projects</h1>
       <div className={styles.cardsContainer}>  
         {/* first project card - something saucy */}
         <div className="card" style={{ width: "18rem" }}>
@@ -13,9 +13,18 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Something Saucy</h5>
             <p className="card-text">
-              This website utilizes information from two APIs to generate recipes based on user search input and a random drink selection. A third API is used to generate a random meal recipe if the user clicks yes on the modal prompt.
+              Developed a dynamic recipe generator that integrates multiple APIs to provide personalized meal suggestions and random drink pairings.
             </p>
-            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Website</a>
+            <div className={styles.techStack}>
+                <i className="devicon-html5-plain colored"></i>
+                <i className="devicon-css3-plain colored"></i>
+                <i className="devicon-javascript-plain colored"></i>
+                <i className="devicon-bootstrap-plain colored"></i>
+                <i className="devicon-git-plain colored"></i>
+                <i className="devicon-github-original"></i>
+                <i className="devicon-vscode-plain colored"></i>
+             </div>
+            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Live Demo</a>
             <a href="https://github.com/LisaLReynolds/Something-Saucy" className="card-link">Github</a>
           </div>
         </div>
@@ -27,7 +36,7 @@ export default function Portfolio() {
             <p className="card-text">
               This website utilizes information from two APIs to generate recipes based on user search input and a random drink selection. A third API is used to generate a random meal recipe if the user clicks yes on the modal prompt.
             </p>
-            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Website</a>
+            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Live Demo</a>
             <a href="https://github.com/LisaLReynolds/Something-Saucy" className="card-link">Github</a>
           </div>
         </div>
@@ -39,7 +48,7 @@ export default function Portfolio() {
             <p className="card-text">
               This website utilizes information from two APIs to generate recipes based on user search input and a random drink selection. A third API is used to generate a random meal recipe if the user clicks yes on the modal prompt.
             </p>
-            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Website</a>
+            <a href="https://lisalreynolds.github.io/Something-Saucy/" className="card-link">Live Demo</a>
             <a href="https://github.com/LisaLReynolds/Something-Saucy" className="card-link">Github</a>
           </div>
         </div>
