@@ -10,6 +10,7 @@
   --primary-dark-text-color: #3d3b4b; /* primary text color */
   --primary-active-tab-color: rgb(100, 100, 200); /* active tab color option */
   --primary-hover-color: #E19F91; 
+  --primary-white: white;
 }
 
 /* I'm not sure if this code is needed. Looks to be overriding bootstrap, but not sure if it is doing anything. Maybe here to fix white area that shows up on right side when screen is made very small/narrow */
@@ -23,7 +24,7 @@ main.mx-3 {
 /* Highlight the active tab */
 .nav-tabs .nav-link.active {
   background-color: var(--primary-hover-color) !important;
-  color: white !important;
+  color: var(--primary-white) !important;
   border-color: var(--primary-hover-color) !important;
 }
 

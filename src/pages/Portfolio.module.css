@@ -1,6 +1,25 @@
+
+.portfolio {
+  
+}
+
+.title {
+  text-align: left;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 10rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: var(--primary-white);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .cardsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 18rem));
+  gap: clamp(1.5rem, 2.2vw, 2.75rem);
+  justify-content: center;
   justify-items: center;
 }
